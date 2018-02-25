@@ -26,7 +26,7 @@ url = 'http://devhack.co/'
   	puts mix.css('div.basic-info h4').text
   end
 end
-
+=end
 url = 'http://www.reactiongifs.com/'
 5.times do |i|
   puts "Página #{i}"
@@ -44,7 +44,7 @@ url = 'http://www.reactiongifs.com/'
   end
   url = document.css('div.nav-entries div.nav-next a').attr('href')
 end
-=end
+=begin
 
 url = 'http://devhack.co/'
 1.times do |i|
@@ -64,6 +64,6 @@ url = 'http://devhack.co/'
 	      end
 	    end
 	end	
-
   end
 end
+=end
